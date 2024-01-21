@@ -1,0 +1,21 @@
+table {
+    width: 80%;
+}
+thead tr {
+    
+    height: 3.5rem;
+    background-color: #021122;
+}
+
+thead tr th {
+    color: white;
+}
+
+tbody {
+    border: 1px solid lightgray;
+}
+
+tr td {
+    height: 3rem;
+    border: 1px solid lightgray;
+}

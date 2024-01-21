@@ -1,0 +1,31 @@
+.policygrid{
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.policybox {
+    /* display: flex; */
+    padding: 20px;
+ border-radius: 30px;
+ height: 60vh;
+ width: 50vh;
+ /* width: 60vh;
+ height: 60vh; */
+ background-color: var(--main-color); 
+ text-align: center;  
+}
+
+.policybox .col1{
+    width: '30%';
+}
+
+h2 {
+    text-align: left;
+}
+
+.policybox p {
+ overflow: hidden;
+  text-overflow: ellipsis;
+  /* white-space: nowrap; */
+}

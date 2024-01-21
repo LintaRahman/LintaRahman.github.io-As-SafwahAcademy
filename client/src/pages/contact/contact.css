@@ -1,0 +1,35 @@
+.grid3col{
+    padding: 20px 80px;
+    overflow-x: hidden;
+}
+
+.grid3col .card {
+    /* flex:1; */
+    margin: 0;
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    padding: 60px 20px;
+}
+
+.grid3col .card h2{
+    font-weight: 600;
+}
+
+@media screen and (max-width: 768px) {
+    .grid3col {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 5px;
+    }
+
+    .grid3col .card{
+        margin: 0 5px;
+        padding: 20px;
+        min-height: 10vh;
+    }
+    
+    .grid3col .card p {
+        display: none;
+    }
+}
+

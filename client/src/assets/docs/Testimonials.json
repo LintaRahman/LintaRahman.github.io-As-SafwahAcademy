@@ -1,0 +1,24 @@
+[
+    {
+      "id": "1",
+      "name": "Ahmed Khan",
+      "type": "Parent",
+      "review": "I am very pleased with the quality of education my children receive at the Madrasah. The teachers are knowledgeable and dedicated, and the atmosphere promotes a love for learning and Islamic values."
+    },
+    {
+      "id": "2",
+      "name": "Fatima Ali",
+      "type": "Parent",
+      "review": "Enrolling my child in the Madrasah was one of the best decisions I've made. The curriculum is well-structured, and the staff ensures a nurturing environment. I appreciate the focus on both academic and moral development."
+    },
+    {
+      "id": "3",
+      "name": "Muhammad Patel",
+      "type": "Student",
+      "review": "The Madrasah has played a crucial role in shaping my character and instilling strong Islamic values. The variety of programs and extracurricular activities contribute to a holistic educational experience."
+    }
+  ]
+  
+
+
+  
