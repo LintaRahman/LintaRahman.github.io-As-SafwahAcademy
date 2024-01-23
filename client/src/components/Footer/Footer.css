@@ -149,7 +149,7 @@ section {
     overflow: hidden;
 }
 
-section .wave {
+/* section .wave {
     position: absolute;
     bottom: 0;
     left: 0;
@@ -210,7 +210,7 @@ section .wave.wave4 {
     100% {
         background-position-x: -1000px;
     }
-}
+} */
 
 
 .copyright {
