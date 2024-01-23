@@ -4,7 +4,7 @@ table {
 thead tr {
     
     height: 3.5rem;
-    background-color: #021122;
+    background-color: var(--text-color);
 }
 
 thead tr th {

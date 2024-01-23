@@ -4,8 +4,8 @@ const policiesList = [
   {
     id: "uniform",
     title: "Uniform Policy",
-    content:<section>
-    <p><strong>Welcome to Safwa Academy!</strong> Our uniform policy aims to create a sense of unity, modesty, and discipline among our students. All students, both children and adults, are required to adhere to the specified uniform guidelines outlined below.</p>
+    content:<section >
+    <p ><strong>Welcome to Safwa Academy!</strong> Our uniform policy aims to create a sense of unity, modesty, and discipline among our students. All students, both children and adults, are required to adhere to the specified uniform guidelines outlined below.</p>
 <br/>
     <p><strong>Uniform Guidelines:</strong></p>
     <p>The uniform for boys consists of:</p>
@@ -17,7 +17,7 @@ const policiesList = [
     <ul>
         <li>Black abayah</li>
         <li>Black headscarf</li>
-        <li>Black jumper</li>
+        <li>Navy blue or black jumper</li>
     </ul>
 <br/>
 
@@ -58,7 +58,58 @@ const policiesList = [
   {
     id: "tncs", 
     title: "Terms & Conditions",
-    content:<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugiat laudantium earum, sint at explicabo error quaerat excepturi odit pariatur illo, veritatis aspernatur minima a sunt architecto assumenda, est inventore maiores.</p>
+    content:<><p><strong>Terms and Conditions for As-Safwah Academy for Kids</strong></p>
+
+    <p><strong>Last Updated:</strong> [Date]</p>
+    
+    <p>Welcome to As-Safwah Academy for Kids. By using our services, you agree to comply with and be bound by the following terms and conditions. Please read them carefully:</p>
+    
+    <p><strong>1. Registration and Eligibility:</strong></p>
+    
+    <p>Parents or legal guardians may register children for As-Safwah Academy for Kids. By registering a child, you confirm that you have the legal authority to do so.</p>
+    
+    <p><strong>2. Course Enrollment:</strong></p>
+    
+    <p>Enrollment in specific courses is subject to availability. As-Safwah Academy for Kids reserves the right to modify or cancel courses at its discretion.</p>
+    
+    <p><strong>3. Payment and Fees:</strong></p>
+    
+    <p>Fees for courses are outlined during the registration process. Payments are non-refundable, except in cases where a course is canceled by As-Safwah Academy for Kids.</p>
+    
+    <p><strong>4. Code of Conduct:</strong></p>
+    
+    <p>Children are expected to behave respectfully and adhere to the code of conduct outlined by As-Safwah Academy for Kids. Any disruptive behavior may result in the child's removal from the course.</p>
+    
+    <p><strong>5. Privacy Policy:</strong></p>
+    
+    <p>The <strong>Privacy Policy</strong> of As-Safwah Academy for Kids, as outlined separately, governs the collection and use of personal information.</p>
+    
+    <p><strong>6. Intellectual Property:</strong></p>
+    
+    <p>All materials, including but not limited to course content, videos, and images, are the intellectual property of As-Safwah Academy for Kids and may not be reproduced or distributed without explicit permission.</p>
+    
+    <p><strong>7. Termination:</strong></p>
+    
+    <p>As-Safwah Academy for Kids reserves the right to terminate a child's enrollment in a course for violation of these terms and conditions or any disruptive behavior.</p>
+    
+    <p><strong>8. Parental Involvement:</strong></p>
+    
+    <p>Parents are encouraged to actively participate in their child's learning experience. Regular communication between parents and As-Safwah Academy for Kids is vital for the child's progress.</p>
+    
+    <p><strong>9. Limitation of Liability:</strong></p>
+    
+    <p>As-Safwah Academy for Kids is not liable for any direct, indirect, incidental, or consequential damages arising from the use of our services.</p>
+    
+    <p><strong>10. Changes to Terms and Conditions:</strong></p>
+    
+    <p>As-Safwah Academy for Kids reserves the right to update or modify these terms and conditions at any time. Any changes will be effective immediately upon posting on our website.</p>
+    
+    <p><strong>11. Contact Us:</strong></p>
+    
+    <p>If you have any questions or concerns about these Terms and Conditions, please contact us at [contact email/phone].</p>
+    
+    <p>Thank you for choosing As-Safwah Academy for Kids.</p>
+    </>
   },{
     id: "privacy",
     title: "Privacy Policy",

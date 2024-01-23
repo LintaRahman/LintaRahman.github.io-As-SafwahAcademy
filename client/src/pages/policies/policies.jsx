@@ -24,7 +24,7 @@ const policies = () => {
             <Link to={`/policies/${policy.id}`}>
               <div className="policybox col1"  >
                 <h1>{policy.title}</h1>
-                <p>{policy.content}</p>
+                <p style={{textAlign:'left'}}>{policy.content}</p>
                 {/* <li key={policy.id}>
             {policy.title}
           </li> */}

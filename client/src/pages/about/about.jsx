@@ -4,6 +4,8 @@ import Footer from "../../components/Footer/Footer";
 import Header from "../../components/Header/Header";
 import bgImage from "../../assets/images/HeaderBg.jpg";
 import institute from "../../assets/images/instituteimage.webp";
+import Table from "../../components/Table/Table";
+import {TimeTable} from "../../assets/docs/Curriculum"
 import logo from "../../assets/images/As-Safwah_logo.png"
 const about = () => {
   return (
@@ -17,11 +19,15 @@ const about = () => {
           <p>
             Safwa Academy was established in November 2021. 
           </p>
+          <p><strong>Location:</strong> Pimlico Academy, Lupus St, Pimlico, London SW1V 3AT</p>
+          <p><strong>Phone:</strong> 07_______</p>
+          <p><strong>E-mail:</strong>info@assafwahacademy.co.uk</p>
+          <p><strong>Time:</strong> 09:00AM - 01:00PM</p>
         </div>
       </section>
 
-      <section className="pgcontainer">
-      {/* <div><img src={institute} alt="" /></div> */}
+      {/* <section className="pgcontainer">
+      // {/* <div><img src={institute} alt="" /></div> 
         <div className="col1">
           <h1>As-Safwah Academy, Pimlico</h1>
           <p><strong>Location:</strong> Pimlico Academy, Lupus St, Pimlico, London SW1V 3AT</p>
@@ -29,6 +35,24 @@ const about = () => {
           <p><strong>E-mail:</strong>info@assafwahacademy.co.uk</p>
           <p><strong>Time:</strong> 09:00AM - 01:00PM</p>
         </div>
+      </section> */}
+
+      {/* Timetable */}
+      <section className="pgcontainer">
+        <h1>Class Timetable</h1>
+        <p>Classes take place every Sunday at Pimlico Academy, 36 Lupus St, Pimlico, London SW1V 3AT.</p>
+        <br/>
+        <Table Data={TimeTable} />
+        <br/>
+        <p>See&nbsp;<a href="/termdates" style={{color: '#1c4943', fontWeight: '600'}}> Term Dates </a>&nbsp;for more information about term times.</p>
+      </section>
+
+      <section className="pgcontainer">
+        <h1>Fees</h1>
+        <p>
+          The fees for the courses are as follows: 
+          
+          </p>
       </section>
 {/* 
       <section className="pgcontainer">

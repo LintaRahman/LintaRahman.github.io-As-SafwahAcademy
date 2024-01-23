@@ -27,23 +27,7 @@ const courses = () => {
         <TabGroup types={curriculum}/>
       </section>
 
-      {/* Timetable */}
-      <section className="pgcontainer">
-        <h1>Class Timetable</h1>
-        <p>Classes take place every Sunday at Pimlico Academy, 36 Lupus St, Pimlico, London SW1V 3AT.</p>
-        <br/>
-        <Table Data={TimeTable} />
-        <br/>
-        <p>See&nbsp;<a href="/termdates" style={{color: '#021122', fontWeight: '600'}}> Term Dates </a>&nbsp;for more information about term times.</p>
-      </section>
-
-      <section className="pgcontainer">
-        <h1>Fees</h1>
-        <p>
-          The fees for the courses are as follows: 
-          
-          </p>
-      </section>
+      
       <Footer />
     </>
   );

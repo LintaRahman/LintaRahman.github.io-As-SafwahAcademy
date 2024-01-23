@@ -46,7 +46,19 @@ const home = () => {
         </div>
       </section>
 
+      {/* Testimonials */}
+      <section className="pgcontainer" style={{background: '#1c4943'}}>
+        <Fade direction="up" casecade>
+          {/* <h1 style={{color: 'white'}}>Testimonials</h1> */}
+        </Fade>
+        <Fade direction="right" casecade>
+
+          <Testimonials testimonialData={testimonials} />
+        </Fade>
+      </section>
+
       {/* Offer */}
+      <Link to='/courses'>
       <section className="pgcontainer">
         <Fade direction="up" casecade>
           <h1>What do we offer</h1>
@@ -77,19 +89,11 @@ const home = () => {
           {/* </Fade> */}
         </div>
       </section>
+      </Link>
 
-      {/* Testimonials */}
-      <section className="pgcontainer" style={{background: '#1c4943'}}>
-        <Fade direction="up" casecade>
-          {/* <h1 style={{color: 'white'}}>Testimonials</h1> */}
-        </Fade>
-        <Fade direction="right" casecade>
+      
 
-          <Testimonials testimonialData={testimonials} />
-        </Fade>
-      </section>
-
-      {/* Blog */}
+      {/* Blog
       <section className="pgcontainer">
       <Fade direction="up" casecade>
         <h1>News</h1>
@@ -108,7 +112,7 @@ const home = () => {
             );
           })}
         </div>
-      </section>
+      </section> */}
 
       <Footer />
     </>

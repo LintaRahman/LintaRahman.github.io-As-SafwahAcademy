@@ -7,7 +7,7 @@ const Tab = styled.button`
   padding: 10px 60px;
   cursor: pointer;
   opacity: 0.9;
-  background: #021122;
+  background: #1c4943;
   color: white;
   border-bottom: 2px solid white;
   outline: 0;
@@ -22,7 +22,7 @@ const Tab = styled.button`
     ${({ active }) =>
     active &&
     `
-    border: 2px solid #021122;
+    border: 2px solid #1c4943;
     opacity: 1;
   `}
   }

@@ -5,7 +5,8 @@ thead tr {
     
     text-transform: capitalize;
     height: 3.5rem;
-    background-color: #021122;
+    /* background-color: #021122; */
+    background-color: #1c4943;
 }
 
 thead tr th {
